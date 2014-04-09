@@ -25,6 +25,20 @@
                     "composer/installers" : "~1.0"
                 }
             }
+        },
+        "concrete5/sample_content_generator": {
+            "1.0": {
+                "name" : "concrete5/sample_content_generator",
+                "version" : "1.0",
+                "type" : "concrete5-package",
+                "dist" : {
+                    "type" : "zip",
+                    "url" : "http://www.concrete5.org/download_file/-/32242/0/"
+                },
+                "require" : {
+                    "composer/installers" : "~1.0"
+                }
+            }
         }
     }
 }
