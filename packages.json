@@ -4,25 +4,37 @@
             "5.6.3.1": {
                 "name": "concrete5/concrete5",
                 "version": "5.6.3.1",
-                "type": "concrete5-update",
+                "type": "concrete5-installer",
                 "dist": {
                     "type": "zip",
                     "url": "http://www.concrete5.org/download_file/-/view/66159/8497/"
                 },
+                "repositories": [
+                    {
+                        "type": "vcs",
+                        "url": "https://github.com/NueveBit/composer-concrete5-installer.git"
+                    }
+                ],
                 "require": {
-                    "composer/installers": "~1.0"
+                    "nuevebit/composer-concrete5-installer": "dev-master"
                 }
             },
             "5.6.3": {
                 "name": "concrete5/concrete5",
                 "version": "5.6.3",
-                "type": "concrete5-update",
+                "type": "concrete5-installer",
                 "dist": {
                     "type": "zip",
                     "url": "http://www.concrete5.org/download_file/-/view/65413/8497/"
                 },
+                "repositories": [
+                    {
+                        "type": "vcs",
+                        "url": "https://github.com/NueveBit/composer-concrete5-installer.git"
+                    }
+                ],
                 "require": {
-                    "composer/installers": "~1.0"
+                    "nuevebit/composer-concrete5-installer": "dev-master"
                 }
             }
         },
